@@ -1,28 +1,53 @@
 body {
-    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
     margin: 0;
     padding: 20px;
     background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
     color: #333;
 }
 
-header {
-    font-family: "Comic Sans MS", cursive, sans-serif;
-    text-align: center;
+.contact-info {
+    margin-bottom: 20px;
 }
 
-h1 {
-    font-family: "Comic Sans MS", cursive, sans-serif;
-    font-size: 2.5em;
+.contact-info p {
+    margin: 5px 0;
 }
 
-section {
-    font-family: "Comic Sans MS", cursive, sans-serif;
-    margin-bottom: 30px;
+.section {
+    margin-bottom: 20px;
 }
 
-footer {
-    font-family: "Comic Sans MS", cursive, sans-serif;
-    text-align: center;
-    padding-top: 10px;
+.section h2 {
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+.achievement-item, .experience-item {
+    margin-bottom: 15px;
+}
+
+.achievement-item p, .experience-item p {
+    margin: 5px 0;
 }
