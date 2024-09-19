@@ -25,8 +25,8 @@ body {
 
 .profile-photo {
     width: 150px;
-    height: 150px;
-    border-radius: 50%;
+    height: 200px;
+    border-radius: 25%;
     object-fit: cover;
 }
 
