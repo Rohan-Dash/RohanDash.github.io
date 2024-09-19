@@ -25,8 +25,8 @@ body {
 }
 
 .profile-photo {
-    width: 120px; /* Width for vertical rectangle */
-    height: 150px; /* Height for vertical rectangle */
+    width: 96px; /* Width for vertical rectangle */
+    height: 144px; /* Height for vertical rectangle */
     border-radius: 0; /* No rounded corners */
     object-fit: cover; /* Ensures the image fills the area */
     border: 4px solid #0073b1; /* Solid border for a polished look */
