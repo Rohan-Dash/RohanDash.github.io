@@ -24,10 +24,17 @@ body {
 }
 
 .profile-photo {
-    width: 150px;
-    height: 200px;
-    border-radius: 25%;
-    object-fit: cover;
+    width: 180px; /* Adjust width */
+    height: 120px; /* Adjust height for oval shape */
+    border-radius: 50%; /* Retain this for the oval effect */
+    object-fit: cover; /* Ensures the image covers the area */
+    border: 4px solid #0073b1; /* Adding a border */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Adding a shadow for depth */
+    transition: transform 0.3s; /* Adding a smooth zoom effect */
+}
+
+.profile-photo:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
 }
 
 .contact-info {
