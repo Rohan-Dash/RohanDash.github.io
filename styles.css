@@ -3,7 +3,7 @@ body {
     background-color: #f0f0f5; /* Background color */
     margin: 0; /* Remove default margin */
     padding: 20px; /* Padding around the body */
-    line-height: 1; /* Set line height to 1 for tight spacing */
+    line-height: 1.2; /* Set line height to 1 for tight spacing */
     font-size: 14px; /* Overall font size */
 }
 
@@ -79,7 +79,7 @@ a:hover {
 ul {
     list-style: disc; /* Bullet style */
     padding-left: 20px; /* Indentation for lists */
-    line-height: 1; /* Line height for list items */
+    line-height: 1.2; /* Line height for list items */
 }
 
 ul li {
